@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Osawaru | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>David Osawaru</h1>
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Web Developer</h2>
+        <p>Building clean, responsive, and functional web apps</p>
+    </section>
+
+    <section id="about">
+        <h3>About Me</h3>
+        <p>Hi, I am David Osawaru — a passionate web developer with 2 years of front-end experience in html, css, and javascript, and growing back-end skills using django. i love building user-friendly web apps and learning new tools in the dev world.</p>
+    </section>
+
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="project">
+            <h4>Contact main form</h4>
+            <p><strong>Tech stack:</strong> html, css, javascript</p>
+            <p>a simple, responsive contact form with validation for user queries.</p>
+            <a href="projects/contact-form-main/index.html" target="_blank">Open Project</a>
+        </div>
+        <div class="project">
+            <h4>Easybank landing page</h4>
+            <p><strong>Tech stack:</strong> html, css, javascript</p>
+            <p>a modern landing page for a banking service with a clean, responsive design.</p>
+            <a href="projects/easybank-landing-page-master/" target="_blank">Open Project</a>
+        </div>
+        <div class="project">
+            <h4>News homepage</h4>
+            <p><strong>Tech stack:</strong> html, css, javascript</p>
+            <p>a news site layout featuring the latest headlines and featured articles.</p>
+            <a href="projects/news-homepage-main/" target="_blank">Open Project</a>
+        </div>
+        <div class="project">
+            <h4>E-commerce website</h4>
+            <p><strong>Tech stack:</strong> django, python</p>
+            <p>a full-stack shopping platform with product listings and cart functionality.</p>
+            <a href="https://icondemigod.pythonanywhere.com" target="_blank">Live Demo</a>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h3>Resume</h3>
+        <p><strong>Career objective:</strong> eager to apply my skills in real-world software development during my nysc. passionate about learning, collaboration, and contributing to impactful technology solutions.</p>
+        <p><strong>Education:</strong> b.sc. computer science, lagos state university (2019–2024)</p>
+        <p><strong>Technical skills:</strong> python (django), html, css, git, vs code, rest apis</p>
+        <p><strong>Internship:</strong> it support intern, hiit, ikeja (2022–2024)</p>
+        <p><strong>Certifications:</strong> intro to django, html/css crash course</p>
+        <a href="resume.pdf" download>download resume (pdf)</a>
+    </section>
+
+    <section id="contact">
+        <h3>Contact</h3>
+        <p><a href="mailto:davidosauyi2k@gmail.com">davidosauyi2k@gmail.com</a></p>
+        <p><a href="http://linkedin.com/in/david-osawaru-9255111aa" target="_blank">linkedin profile</a></p>
+    </section>
+
+    <footer>
+        <p>built by david osawaru</p>
+    </footer>
+    
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+      
+        hamburger.addEventListener('click', () => {
+          navLinks.classList.toggle('show');
+        });
+      </script>
+
+</body>
+</html>

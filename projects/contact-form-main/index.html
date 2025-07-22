@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Contact Us</h1>
+    <form action="">
+      <div class="name-wrapper">
+        <div class="name">
+          <label for="name">First Name *</label>
+          <input type="text">
+          <p class="error"></p>
+        </div>
+        <div class="name">
+          <label for="name">Last Name *</label>
+          <input type="text">
+          <p class="error"></p>
+        </div>
+      </div>
+      <label for="name">Email Address *</label>
+          <input type="email">
+          <p class="error"></p>
+          <div class="query-wrapper">
+            <div class="query">
+              <label for="query">Query Type*</label>
+              <button><span></span>General Enquiry</button>
+              <p class="error"></p>
+            </div>
+            <div class="query btn-edit">
+              <button><span></span>Support Request</button>
+            </div>
+          </div>
+          <label for="">Message</label>
+          <textarea name="" id=""></textarea>
+          <p class="error"></p>
+         <div class="check-input">
+          <input type="checkbox">
+          <p>I consent to being contacted by the team *</p>
+         </div>
+         <p class="error"></p>
+         <input id="submit" type="submit" value="Submit">
+
+    </form>
+  </section>
+  <section class="section2">
+    <div class="section2-header">
+      <img src="./assets/images/icon-success-check.svg" alt="">
+      <h2>Message Sent</h2>
+    </div>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+  </section>
+
+  
+
+  <!-- First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+   -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
